@@ -1,0 +1,19 @@
+/**
+ * We declare a package-level function main which returns Unit and takes
+ * an Array of strings as a parameter. Note that semicolons are optional.
+ */
+
+fun main(args: Array<String>) {
+    var s1 = 4	
+    var s2 = 3
+    var s3 = 5
+    var per = s3+s2+s1
+    var s = (s1*s2)/2
+    
+    val peri= "ההיקף הוא"
+    val ter= "השטח הוא"
+        System.out.println ("נתון משולש ישר זווית שניצביו שווים ל-4 סנטימטר ו-3 סנטימטר והיתר שווה ל-5 סנטימטר.מה היקפו של המלבן ומה שטחו של המלבן?הציגו דרך פתרון ")
+    System.out.println (peri+":"+ per+ "סנטימטר")
+        System.out.println (ter+":"+ s+ "סנטימטר רבוע")
+
+}
